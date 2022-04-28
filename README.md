@@ -3,7 +3,6 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Technologies](#technologies)
 - [Functionalities](#functionalities)
 - [Supplementary Information](#supplementary-information)
 - [Project Launch](#project-launch)
@@ -12,7 +11,7 @@
 “Bike Assistant” is a software suite aims to provide an aesthetically pleasing and animated UI for cyclists in Calgary to have one-stop supporting service during their journey. The goal of this project is to provide a more convenient, fun and safer cycling experience for Calgarians. “Bike Assistant” consists of an android mobile app and an interactive web map app. This file describes the functionalities of the mobile app. Please refer to [another repo](https://github.com/ArashMozhdehi/ENGO-651-Final-Project-Backend) of this project for the technologies and technical details applied as well as the functionalities of the web map app. [Requirement #1 and #10 – apply lab materials in a more complex way and solve a problem]
 
 ## Functionalities
-### 1. Start – Mobile App
+### 1. Initiate the App
 #### 1.1. Splash Screen
 ![Bike Assistant](/images/bikeassistant.PNG) 
 
@@ -23,7 +22,7 @@ Animated introduction of the mobile application.
 Internet connectivity check to ensure user is able to connect the back-end with real-time and semi-real-time API from the open data portal of the city of Calgary.
 User will be alerted and asked to activate a Wi-Fi or mobile connection if user is not connected to the Internet.
 Use can press exit button to close the application if user does not want to connect to the Internet.
-### 2. Authentication – Mobile App
+### 2. Authentication 
 #### 2.1. Login 
 ![Login](/images/login.PNG) 
 
@@ -36,7 +35,7 @@ User is required to provide (i) username, (ii) first name, (iii) last name, (iv)
 ![ForgotPassword](/images/ForgotPassword1.PNG) 
 ![ForgotPassword](/images/ForgotPassword2.PNG) 
 
-User can click “Forgot your password” in case it is needed. User is then required to input the email address of the registered account for receiving a secure recovery code to reset password.
+User can click “Forgot your password?” in case it is needed. User is then required to input the email address of the registered account for receiving a secure recovery code to reset password.
 
 ![ForgotPassword](/images/ForgotPassword3.PNG) 
 
@@ -46,7 +45,7 @@ An email will be sent to user with the recovery code.
 ![ForgotPassword](/images/ForgotPassword5.PNG) 
 ![ForgotPassword](/images/ForgotPassword6.PNG) 
 
-User can key in the recovery code in the mobile application to enable entering new password for the account. 
+User can key in the recovery code to the mobile application. New password can be set for the account. 
 
 ### 3. Dashboard – Mobile App
 ![Location](/images/location.PNG) 
@@ -59,13 +58,13 @@ User can click on the buttons on the dashboard for different services.
 
 ![DashboardMenu](/images/DashboardMenu.PNG) 
 
-A drawer menu is also available for user convenience use. 
+A drawer menu is also available for convenient use. 
 
 #### 3.1. Starts
 ![Features](/images/features.PNG) 
 ![Auto](/images/auto.PNG) 
 
-User can explore the city of Calgary with the mapping front-end. User can select interested type of built-in features or key in (with auto-complete support) a place to find the details of the destination. 
+User can explore the City of Calgary with the mapping front-end. User can select interested type of built-in features or key in (with auto-complete support) a place to find the details of the destination. [Requirement #2 – mapping frontend]
 
 **Example:** User can key-in "Uni" and get a list of suggested auto-complete keywords for searching a destination.
 
@@ -78,16 +77,16 @@ User can review and give feedbacks of the selected amenities or type of bike fri
 
 ![Route](/images/route.PNG) 
 
-User can get the recommended route to the selected destination.
+User can get the recommended route to the selected destination. 
 
 ![Alert](/images/alert.PNG) 
 
-When user is approaching within 100m of a traffic incident or construction project site, a warning notification will be sent to user as a safety alerts.
+When user is approaching within 100m of a traffic incident or construction project site, a warning notification will be sent to user as a safety alerts. [Requirement #8 – perform real-time and contextual data analytics]
 #### 3.2. Amenities
 ![Radius](/images/radius.PNG) 
 ![Water](/images/wfeedback.PNG) 
 
-The application supports facilities types of (i) water fountains, (ii) toilets and (iii) bench for searching, routing and providing feedbacks.
+The application supports facilities types of (i) water fountains, (ii) toilets and (iii) bench for searching, routing and providing feedbacks. [Requirement #8 – perform real-time and contextual data analytics]
 
 **Example:** User can input a distance for searching nearby amenities, e.g. input “500” represents 500m.
 
@@ -97,18 +96,18 @@ User can rate 0-5 stars for Cleanness and Functionality in the facilities feedba
 
 User can perform the following actions in the setting: (i) change password, (ii) change weight and (iii) update profile picture.
 
-**Example:** User can input a change the weight information by input a new value in the page, e.g. “50” represents 50kg.
+**Example:** User can input a change for the weight information by input a new value in the page, e.g. “50” represents 50kg.
 
 ![ProfileUpdate](/images/ProfileUpdate2.PNG) 
 ![ProfileUpdate](/images/ProfileUpdate3.PNG) 
 ![ProfileUpdate](/images/ProfileUpdate4.PNG) 
 
-User can select an image from the google drive or phone storage and make adjustment, such as cropping, for to update the profile picture. 
+User can select an image from the google drive or phone storage and make adjustment, such as cropping, to update the profile picture. 
 
 #### 3.4. Statistics
 ![Stat](/images/stat.PNG) 
 
-User can view the Calories burned Today, last 7 days, and last 30 days with progress bar and bar charts.
+User can view the Calories burned Today, last 7 days, and last 30 days with progress bar and bar charts. [Requirement #8 – perform historical data analytics]
 #### 3.5. Logout
 User can logout the session.
 
