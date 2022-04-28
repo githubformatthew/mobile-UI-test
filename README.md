@@ -1,5 +1,5 @@
 ![Banner](/images/banner.png)
-# Bike Assistant :bicyclist: :biking_woman:
+# Bike Assistant – Mobile Application :bicyclist: :biking_woman:
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -8,7 +8,7 @@
 - [Project Launch](#project-launch)
 
 ## Introduction
-“Bike Assistant” is a software suite aims to provide an aesthetically pleasing and animated UI for cyclists in Calgary to have one-stop supporting service during their journey. The goal of this project is to provide a more convenient, fun and safer cycling experience for Calgarians. “Bike Assistant” consists of an android mobile app and an interactive web map app. This file describes the functionalities of the mobile app. Please refer to [another repo](https://github.com/ArashMozhdehi/ENGO-651-Final-Project-Backend) of this project for the technologies and technical details applied as well as the functionalities of the web map app. [Requirement #1 and #10 – apply lab materials in a more complex way and solve a problem]
+“Bike Assistant” is a software suite aims to provide an aesthetically pleasing and animated UI for cyclists in Calgary to have one-stop supporting service during their journey. The goal of this project is to provide a more convenient, fun and safer cycling experience for Calgarians. “Bike Assistant” consists of an android mobile app and an interactive web map app. This file describes the functionalities of the mobile app. Please refer to [another repo](https://github.com/ArashMozhdehi/ENGO-651-Final-Project-Backend) of this project for the technologies and technical details applied as well as the functionalities of the web map app. 
 
 ## Functionalities
 ### 1. Initiate the App
@@ -64,7 +64,7 @@ A drawer menu is also available for convenient use.
 ![Features](/images/features.PNG) 
 ![Auto](/images/auto.PNG) 
 
-User can explore the City of Calgary with the mapping front-end. User can select interested type of built-in features or key in (with auto-complete support) a place to find the details of the destination. [Requirement #2 – mapping frontend]
+User can explore the City of Calgary with the mapping front-end. User can select interested type of built-in features or key in (with auto-complete support) a place to find the details of the destination. 
 
 **Example:** User can key-in "Uni" and get a list of suggested auto-complete keywords for searching a destination.
 
@@ -81,12 +81,12 @@ User can get the recommended route to the selected destination.
 
 ![Alert](/images/alert.PNG) 
 
-When user is approaching within 100m of a traffic incident or construction project site, a warning notification will be sent to user as a safety alerts. [Requirement #8 – perform real-time and contextual data analytics]
+When user is approaching within 100m of a traffic incident or construction project site, a warning notification will be sent to user as a safety alerts. 
 #### 3.2. Amenities
 ![Radius](/images/radius.PNG) 
 ![Water](/images/wfeedback.PNG) 
 
-The application supports facilities types of (i) water fountains, (ii) toilets and (iii) bench for searching, routing and providing feedbacks. [Requirement #8 – perform real-time and contextual data analytics]
+The application supports facilities types of (i) water fountains, (ii) toilets and (iii) bench for searching, routing and providing feedbacks. 
 
 **Example:** User can input a distance for searching nearby amenities, e.g. input “500” represents 500m.
 
@@ -107,7 +107,7 @@ User can select an image from the google drive or phone storage and make adjustm
 #### 3.4. Statistics
 ![Stat](/images/stat.PNG) 
 
-User can view the Calories burned Today, last 7 days, and last 30 days with progress bar and bar charts. [Requirement #8 – perform historical data analytics]
+User can view the Calories burned Today, last 7 days, and last 30 days with progress bar and bar charts. 
 #### 3.5. Logout
 User can logout the session.
 
@@ -120,3 +120,5 @@ User can logout the session.
 
 ## Project Launch
 April 2022
+ 
+
