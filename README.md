@@ -93,11 +93,18 @@ The application supports facilities types of (i) water fountains, (ii) toilets a
 
 User can rate 0-5 stars for Cleanness and Functionality in the facilities feedback form.
 #### 3.3. Settings
-![Weight](/images/weight.PNG) 
+![ProfileUpdate](/images/ProfileUpdate1.PNG) 
 
-User can perform the following actions: (i) change password and (ii) change weight.
+User can perform the following actions in the setting: (i) change password, (ii) change weight and (iii) update profile picture.
 
 **Example:** User can input a change the weight information by input a new value in the page, e.g. “50” represents 50kg.
+
+![ProfileUpdate](/images/ProfileUpdate2.PNG) 
+![ProfileUpdate](/images/ProfileUpdate3.PNG) 
+![ProfileUpdate](/images/ProfileUpdate4.PNG) 
+
+User can select an image from the google drive or phone storage and make adjustment, such as cropping, for to update the profile picture. 
+
 #### 3.4. Statistics
 ![Stat](/images/stat.PNG) 
 
